@@ -17,6 +17,6 @@ exports.run = async(bot, message, args) => {
 }
 
 exports.komento = {
-  nimi: 'command',
-  alias: ['cmd'],
+  nimi: 'komento',
+  alias: ['komento2'],
 }
