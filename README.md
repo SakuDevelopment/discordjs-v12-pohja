@@ -6,7 +6,7 @@ Mikäli sinulla tulee ongelmia asentamisessa [liitythän](https://saku.dev/disco
 ## Asentaminen:
 [1] Asenna node.js (https://nodejs.org/en/download/)
 
-[2] Luo uusi kansio laitteellesi, avaa komentokehote ja kopioi discord-v12-pohja komennolla:
+[2] Luo uusi kansio laitteellesi, avaa komentokehote ja kopioi discordjs-v12-pohja komennolla:
 ```sh
 $ git clone https://github.com/sakudevelopment/discordjs-v12-pohja
 $ cd discordjs-v12-pohja
