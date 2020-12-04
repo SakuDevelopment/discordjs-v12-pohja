@@ -87,7 +87,7 @@ fs.readdir("./komennot/", (virhe, tiedostot) => {
 // Printtaa consoleen "<botin nimi> on päällä!" ja aseta botin tila.
 bot.on("ready", () => {
   console.log(`${bot.user.tag} on nyt päällä.`);
-  bot.user.setActivity(`SAKU Development`, { type: "PLAYING" });
+  bot.user.setActivity(`SAKU Development`, { type: "LISTENING" });
   bot.user.setStatus(`online`)
 });
 
