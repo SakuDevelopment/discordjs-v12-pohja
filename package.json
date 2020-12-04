@@ -1,0 +1,24 @@
+{
+  "name": "discordjs-v12-pohja",
+  "version": "1.2.0",
+  "description": "Discord.js v12 bottipohja.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.2",
+    "discord.js": "^12.3.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://github.com/sakudevelopment/discordjs-v12-pohja"
+  },
+  "license": "MIT",
+  "keywords": [
+    "discord botti",
+    "discord.js"
+  ]
+}
