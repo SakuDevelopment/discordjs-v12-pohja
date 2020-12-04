@@ -24,7 +24,7 @@ module.exports = (bot, message) => {
   if (message.channel.type == "dm") return;
   
   // Mikäli komento löytyi, triggeraa sen koodi:
-  if (cmd) {
-    cmd.run(bot, message, args);
+  if (komento) {
+    komento.run(bot, message, args);
   }
 }
