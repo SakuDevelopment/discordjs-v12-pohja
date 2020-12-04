@@ -17,7 +17,7 @@ module.exports = (bot, message) => {
   let cmd = bot.komennot.get(komento.slice(prefix.length)) || bot.komennot.get(bot.aliasit.get(komento.slice(prefix.length)));
   
   // Mikäli viesti ei ala prefixillä, return:
-  if (!command.startsWith(prefix)) return;
+  if (!komento.startsWith(prefix)) return;
   // Mikäli viestin lähettäjä on bot, return:
   if (message.author.bot) return;
   // Mikäli viesti on lähetetty yksityisviesteissä, return:
